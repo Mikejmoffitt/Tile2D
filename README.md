@@ -8,8 +8,12 @@ This is also for you.
 Quickstart
 ----------
 In just six steps you can draw sprites to the screen.
+**Step 0:** Install Dependencies
+```sh
+# apt install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev libglew-dev libpng-dev
+```
 
-**Step 1:** Setup. Include common header. Put ```/Assets``` one directory above where your executable will go, and don't forget to link against ```-lglfw -lGL -lGLU -lpng -lGLEW```
+**Step 1:** Test Program Setup. Include common header. Put ```/Assets``` one directory above where your executable will go, and don't forget to link against ```-lglfw -lGL -lGLU -lpng -lGLEW```
 ```c++
 #include "tile2d.h"
 ```
